@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.menu__element {
+  margin: 0px 10px;
+  align-self: center;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__image {
+  width: 15px;
+}
+
+.menu__image.two {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
