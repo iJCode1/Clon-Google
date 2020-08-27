@@ -141,27 +141,48 @@ body {
   border: 1px solid rgb(6, 132, 211);
 }
 
-.footer {
-  background-color: rgba(100, 100, 100, 0.11);
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
+footer {
   bottom: 0;
   position: fixed;
   width: 100%;
 }
 
+.footer__first {
+  background-color: rgba(100, 100, 100, 0.11);
+  height: 40px;
+}
+
+.footer__first a {
+  color: #6f6f6f;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  padding-left: 27px;
+  line-height: 40px;
+}
+
+.footers {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+
 .footer__one a,
 .footer__two a {
-  margin: 0px 20px;
   text-decoration: none;
   align-self: center;
-  color: rgba(120, 120, 120, 1);
+  color: #5f6368;
   font-size: 14px;
+  padding-left: 27px;
 }
 
 .footer__one,
 .footer__two {
   display: flex;
   align-content: center;
+}
+
+.footer__two {
+  margin-right: 30px;
 }
