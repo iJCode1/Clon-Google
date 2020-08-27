@@ -182,6 +182,11 @@ footer {
   padding-left: 27px;
 }
 
+.footer__one a:hover,
+.footer__two a:hover {
+  text-decoration: underline;
+}
+
 .footer__one,
 .footer__two {
   display: flex;
