@@ -59,12 +59,9 @@ body {
   width: 600px;
   height: 250px;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 110px;
 }
 
-.search > div > img {
-  padding: 0px 10px;
-}
 .imageWrap {
   margin-bottom: 20px;
 }
@@ -72,13 +69,14 @@ body {
 .section__image {
   display: block;
   margin: 0 auto;
-  width: 290px;
+  width: 272px;
+  height: 92px;
 }
 
 .search {
   border: 1px solid #ccc;
-  width: 500px;
-  height: 40px;
+  width: 582px;
+  height: 44px;
   border-radius: 50px;
   display: flex;
   justify-content: space-evenly;
@@ -99,17 +97,23 @@ body {
   height: 15px;
   align-self: center;
   filter: invert(0.7);
+  padding-left: 15px;
 }
 
 .mic__image {
   width: 24px;
   height: 24px;
   align-self: center;
+  padding-right: 15px;
+}
+
+.search__input {
+  margin: auto 0;
 }
 
 .form__input {
-  width: 400px;
-  height: 40px;
+  width: 487px;
+  height: 39px;
   padding: 0px 10px;
   border: none;
   outline: none;
