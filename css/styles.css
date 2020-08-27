@@ -152,14 +152,15 @@ footer {
 }
 
 .footer__first {
-  background-color: rgba(100, 100, 100, 0.11);
+  background-color: #f2f2f2;
   height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .footer__first a {
   color: #6f6f6f;
   text-decoration: none;
-  background-color: #f2f2f2;
   padding-left: 27px;
   line-height: 40px;
 }
