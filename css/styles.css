@@ -122,12 +122,23 @@ body {
 }
 
 .button {
-  height: 40px;
-  color: rgba(120, 120, 120, 1);
+  height: 36px;
+  background-color: #f2f2f2;
+  color: #5f6368;
   border-radius: 5px;
-  border: none;
+  border: 1px solid transparent;
   margin-right: 10px;
-  padding: 5px 15px;
+  padding: 0px 16px;
+}
+
+.button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.button:active {
+  border: 1px solid rgb(6, 132, 211);
 }
 
 .footer {
