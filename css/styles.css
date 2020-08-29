@@ -182,6 +182,11 @@ footer {
   padding-left: 27px;
 }
 
+.footer__one a:active,
+.footer__two a:active {
+  color: #dd4b39;
+}
+
 .footer__one a:hover,
 .footer__two a:hover {
   text-decoration: underline;
